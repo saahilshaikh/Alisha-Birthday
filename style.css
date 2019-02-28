@@ -1,0 +1,563 @@
+body
+{
+  margin:0px;
+  padding: 0;
+}
+
+h1
+{
+  width: 100%;
+  text-align: center;
+  font-size: 100px;
+  color:rgba(0, 153, 0,0.5);
+}
+.hb {
+  width: 100%;
+  height: 168px;
+  color: #90c418;
+  font-family: "Segoe UI";
+  font-size: 18px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+}
+p
+{
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+  color: #aca9a9;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+}
+.swiper-container
+{
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.swiper-slide
+{
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+  background: #fff;
+}
+.swiper-pagination-bullet
+{
+  background-color: #90c418;
+}
+.img
+{
+  width: 300px;
+  height: 300px;
+}
+.slidebox1
+{
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.slidebox1 span
+{
+
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 1px solid #90c418;
+  border-right: 1px solid #90c418;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+.slidebox1 span:nth-child(2)
+{
+  animation-delay: -0.2s;
+}
+.slidebox1 span:nth-child(3)
+{
+  animation-delay: -0.4s;
+}
+
+@keyframes animate
+{
+  0%
+  {
+    opacity: 0;
+    transform: rotate(45deg) translate(-20px,-20px);
+  }
+  50%
+  {
+    opacity: 1;
+  }
+  100%
+  {
+    opacity: 0;
+    transform: rotate(45deg) translate(20px,20px);
+  }
+}
+#Diaper
+{
+  margin-top: 200px;
+}
+.diaperimage
+{
+  width:500px;
+  height: 500px;
+  display: block;
+  margin: 1px auto;
+}
+h2
+{
+  font-size: 80px;
+  color: #7D6E40;
+  text-align: center;
+  
+}
+.diaperlines
+{
+  padding-left: 5px;
+}
+p2
+{
+  opacity: 0.7;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  color:#7D6E40;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+}
+#Diaper .swiper-pagination-bullet
+{
+  background-color:#7D6E40;
+}
+
+.slidebox2
+{
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.slidebox2 span
+{
+
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 1px solid #7D6E40;
+  border-right: 1px solid #7D6E40;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+.slidebox2 span:nth-child(2)
+{
+  animation-delay: -0.2s;
+}
+.slidebox2 span:nth-child(3)
+{
+  animation-delay: -0.4s;
+}
+
+#KID
+{
+  margin-top: 200px;
+}
+.kidimage
+{
+  width:500px;
+  height: 500px;
+  display: block;
+  margin: 1px auto;
+}
+h3
+{
+  font-size: 80px;
+  color: #FABCDE;
+  text-align: center;
+  
+}
+.kidlines
+{
+  padding-left: 5px;
+}
+p3
+{
+  opacity: 0.7;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  color:#aca9a9;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+}
+
+#KID .swiper-pagination-bullet
+{
+  background-color:#FABCDE;
+}
+
+.slidebox3
+{
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.slidebox3 span
+{
+
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 1px solid #FABCDE;
+  border-right: 1px solid #FABCDE;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+.slidebox3 span:nth-child(2)
+{
+  animation-delay: -0.2s;
+}
+.slidebox3 span:nth-child(3)
+{
+  animation-delay: -0.4s;
+}
+
+#YOUNG
+{
+  margin-top: 200px;
+}
+.youngimage
+{
+  width:500px;
+  height: 500px;
+  display: block;
+  margin: 1px auto;
+}
+h4
+{
+  font-size: 80px;
+  color: #59ADFF;
+  text-align: center;
+  
+}
+.younglines
+{
+  padding-left: 5px;
+}
+p4
+{
+  opacity: 0.7;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  color:#59ADFF;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+}
+
+#YOUNG .swiper-pagination-bullet
+{
+  background-color:#59ADFF;
+}
+
+.slidebox4
+{
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.slidebox4 span
+{
+
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 1px solid #59ADFF;
+  border-right: 1px solid #59ADFF;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+.slidebox4 span:nth-child(2)
+{
+  animation-delay: -0.2s;
+}
+.slidebox4 span:nth-child(3)
+{
+  animation-delay: -0.4s;
+}
+
+#OLD
+{
+  margin-top: 200px;
+}
+
+.oldimage
+{
+  width:500px;
+  height: 500px;
+  display: block;
+  margin: 1px auto;
+}
+h5
+{
+  font-size: 80px;
+  color: #aca9a9;
+  text-align: center;
+}
+.slidebox5
+{
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.slidebox5 span
+{
+
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 1px solid #aca9a9;
+  border-right: 1px solid #aca9a9;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+.slidebox5 span:nth-child(2)
+{
+  animation-delay: -0.2s;
+}
+.slidebox5 span:nth-child(3)
+{
+  animation-delay: -0.4s;
+}
+
+#FAMILY
+{
+  margin-top: 200px;
+}
+
+.familyimage
+{
+  width:500px;
+  height: 500px;
+  display: block;
+  margin: 1px auto;
+}
+h6
+{
+  font-size: 80px;
+  color: #FC6A6A;
+  text-align: center;
+}
+p5
+{
+  opacity: 0.7;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  color:#FC6A6A;
+  font-family: "Segoe UI";
+  font-size: 20px;
+  font-style: normal;
+  font-stretch: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: left;
+  text-transform: none;
+  text-decoration: none;
+  letter-spacing: 0px;
+}
+#FAMILY .swiper-pagination-bullet
+{
+  background-color:#FC6A6A;
+}
+
+.slidebox6
+{
+  position: absolute;
+  left: 50%;
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.slidebox6 span
+{
+
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-bottom: 1px solid #FC6A6A;
+  border-right: 1px solid #FC6A6A;
+  transform: rotate(45deg);
+  margin: -10px;
+  animation: animate 2s infinite;
+}
+.slidebox6 span:nth-child(2)
+{
+  animation-delay: -0.2s;
+}
+.slidebox6 span:nth-child(3)
+{
+  animation-delay: -0.4s;
+}
+
+#END
+{
+  margin-top: 200px;
+}
+.endimage
+{
+  width:500px;
+  height: 500px;
+  display: block;
+  margin: 1px auto;
+}
+p6
+{
+  font-size: 100px;
+  color: #aca9a9;
+}
+
+#END .swiper-pagination-bullet
+{
+  background-color:#aca9a9;
+}
+
+@media(max-width: 420px)
+{
+  .hb
+  {
+    object-fit:cover;
+  }
+  h1
+  {
+    font-size: 40px;
+  }
+  p
+  {
+    font-size: 15px;
+  }
+  .diaperimage
+{
+  width:auto;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+}
+  p2
+  {
+    font-size: 15px;
+  }
+  .kidimage
+{
+  width:auto;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+}
+  p3
+  {
+    font-size: 15px;
+  }
+  .youngimage
+{
+  width:auto;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+}
+  p4
+  {
+    font-size: 15px;
+  }
+  .oldimage
+{
+  width:auto;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+}
+h5
+  {
+    font-size: 40px;
+  }
+  
+  .familyimage
+{
+  width:auto;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+}
+p5
+  {
+    font-size: 15px;
+  }
+  .endimage
+{
+  width:auto;
+  height: 200px;
+  display: block;
+  margin: 1px auto;
+}
+  p6
+  {
+    font-size: 30px;
+  }
+}
